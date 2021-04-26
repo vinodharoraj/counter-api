@@ -1,14 +1,14 @@
 # counter-api
 counter-api
 
-To Counter-api application is developed using spring framework. It facilitates two REST services (GET & POST).
+This Counter-api application is developed using spring framework. It facilitates two REST services (GET & POST).
 
 POST: searchtext
 
-Description: It returns the count of the each input JSON string array searchtext
-Mapping: http://localhost:8080/counter-api/search/
-Body: "String in JSON format"
-Authorisation: BASIC AUTHENTICATION
+Description: It returns the count of the each input JSON string array searchtext 
+Mapping: http://localhost:8080/counter-api/search/ 
+Body: "String in JSON format" 
+Authorisation: BASIC AUTHENTICATION 
 
 GET: top/{value}
 
@@ -16,7 +16,7 @@ Description: It returns the Top strings in the descending order based on the inp
 Mapping: http://localhost:8080/counter-api/top/{value}
 Authorisation: BASIC AUTHENTICATION
 
-It is a Spring framework application is created using maven. The dependencies required for this application were added in the pom.xml file. And the input is present in the src/main/resources folder
+This Spring framework application is created using maven. The dependencies required for this application were added in the pom.xml file. And the input is present in the src/main/resources folder
 
 To run this application:
 
